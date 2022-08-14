@@ -26,7 +26,7 @@ export default function App() {
             </nav>
             <div className="container todoListPage vhContainer">
                 <div className="todoList_Content">
-                    <Input />
+                    <Input todoState={todoState} />
                     <div className="todoList_list">
                         <ul className="todoList_tab">{createTab()}</ul>
                         <div className="todoList_items">
